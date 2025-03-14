@@ -29,7 +29,7 @@ source ~/ros2_ws/install/setup.bash
 </details>
 
 ``` r
-ros2 launch bed_ydx_star_turtlesim launch_example1.launch.py
+ros2 launch bed_ydx_star_turtlesim turtle.launch.py
 ```
 
 

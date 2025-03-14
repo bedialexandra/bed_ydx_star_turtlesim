@@ -21,14 +21,14 @@ set(ament_dependencies
   geometry_msgs
 )
 
-# add_executable(simple_sub_node src/print_pose.cpp)
-# ament_target_dependencies(simple_sub_node ${ament_dependencies} )
+add_executable(draw_star src/draw_star.cpp)
+ament_target_dependencies(draw_star ${ament_dependencies} )
 
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS
-# simple_sub_node
+draw_star
 DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
